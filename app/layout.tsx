@@ -4,9 +4,8 @@ import { GeistMono } from 'geist/font/mono'
 import './globals.css'
 
 export const metadata: Metadata = {
-  title: 'v0 App',
-  description: 'Created with v0',
-  generator: 'v0.dev',
+  title: 'SVG Hub',
+  description: 'Discover thousands of high-quality SVG icons, business logos, and convert images to SVG. Copy with one click and use anywhere.',
 }
 
 export default function RootLayout({
