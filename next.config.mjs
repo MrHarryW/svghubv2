@@ -11,7 +11,8 @@ const nextConfig = {
   },
   output: "export",
   reactStrictMode: true,
-  basePath: "/",
+  basePath: process.env.NODE_ENV === 'production' ? '/svghub' : '',
+  assetPrefix: process.env.NODE_ENV === 'production' ? '/svghub' : '',
 }
 
 export default nextConfig
